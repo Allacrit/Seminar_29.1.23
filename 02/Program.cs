@@ -8,8 +8,7 @@ Console.Write("Введите число n: ");
 int n = int.Parse(Console.ReadLine());
 
 int[,] tstArr = new int[m, n];
-Console.WriteLine($"Создан массив {m}x{n}.");
-Console.WriteLine("Введите диапазон генерации чисел для заполнения:");
+Console.WriteLine($"Создан массив {m}x{n}:");
 
 FillArray(tstArr);
 
